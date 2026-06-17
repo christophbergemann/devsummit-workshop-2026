@@ -1,0 +1,22 @@
+{
+  "name": "iso-racer",
+  "version": "1.0.0",
+  "description": "An isometric 3D arcade car racing game built with Babylon.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.34.0",
+    "@babylonjs/gui": "^7.34.0",
+    "@babylonjs/loaders": "^7.34.0",
+    "@babylonjs/loaders": "^7.54.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
